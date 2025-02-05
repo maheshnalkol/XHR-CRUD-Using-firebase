@@ -1,0 +1,69 @@
+body{
+    background-color: #f4eab8;
+}
+
+a:is(:hover,:active,:link,:visited){
+    display: inline-block;
+    color: #f4eab8;
+    text-decoration: none;
+}
+.logo i{
+    font-size: 40px;
+}
+.header{
+    background-color: black;
+}
+.custom-nav h1{
+    color: #f4eab8;
+    padding-left:10px ;
+    margin-bottom: 0px;
+}
+.cus-btn{
+    background-color: #f4eab8;
+    outline: none;
+    border-color: #f4eab8;
+    color: black;
+    font-weight: bolder;
+}
+.cus-btn:hover{
+    background-color: black;
+    color: #f4eab8;
+    border: solid 3px  #fff;
+}
+.form-group .cus-btn:hover{
+    background-color: greenyellow;
+    color: black;
+    font-weight: bold;
+}
+.backDrop{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+#showForm{
+    width: 60%;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    z-index: 10;
+}
+#hideModal{
+    cursor: pointer;
+}
+.loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display: none; */
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    background-color: rgba(109, 106, 106,0.5);
+}
