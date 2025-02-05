@@ -30,7 +30,7 @@ a:is(:hover,:active,:link,:visited){
     color: #f4eab8;
     border: solid 3px  #fff;
 }
-.form-group .cus-btn:hover{
+.form-group .cus-btn:is(:hover,:active,:visited){
     background-color: greenyellow;
     color: black;
     font-weight: bold;
